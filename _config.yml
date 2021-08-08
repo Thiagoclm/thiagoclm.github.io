@@ -21,7 +21,8 @@
 title: AstrodIA
 author: Thiago César 
 email: thiagoclm@gmail.com
-avatar: "/assets/images/space_icon.png"
+# avatar: "/assets/images/space_icon.png"
+title-img: /assets/images/space_icon.png
 description: >- # this means to ignore newlines until "baseurl:"
   AsdtrodIA is a website that focuses on the research of astrodynamics with AI.
 baseurl: "" # the subpath of your site, e.g. /blog
