@@ -3,4 +3,5 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+featured_img: /assets/images/nasa.jpg
 ---
