@@ -18,23 +18,51 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: AstrodIA
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+title: AstrodAI
 author: Thiago César 
 email: thiagoclm@gmail.com
 # avatar: "/assets/images/space_icon.png"
-title-img: /assets/images/space_icon.png
+logo: /assets/images/space_icon.png
+header:
+  teaser: /assets/images/nasa.jpg
+  # caption: "AstrodAI"
 description: >- # this means to ignore newlines until "baseurl:"
-  AsdtrodIA is a website that focuses on the research of astrodynamics with AI.
+  AsdtrodAI is a website that focuses on the research of astrodynamics with AI.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://thiagoclm.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
-linkedin_username: thiagoclm
-github_username:  Thiagoclm
+# linkedin_username: thiagoclm
+linkedin:
+  username: &linkedin thiagoclm
+# github_username:  Thiagoclm
+github:
+  username: &github Thiagoclm
+
+teaser: "/assets/images/nasa.png"
+
+# Site Footer
+footer:
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/thiagoclm/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Thiagoclm"
+    - label: "Researchgate"
+      icon: "fab fa-fw fa-researchgate"
+      url: "https://www.researchgate.net/profile/Thiago-Marsola"
+
+
 
 # Build settings
-theme: minima
-plugins:
-  - jekyll-feed
+# theme: minima
+theme: minimal-mistakes-jekyll
+
+# plugins:
+#   - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
