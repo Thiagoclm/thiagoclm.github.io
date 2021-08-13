@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 title: AstrodAI
 author: Thiago César 
@@ -59,7 +59,7 @@ footer:
 
 # Build settings
 # theme: minima
-theme: minimal-mistakes-jekyll
+remote_theme: minimal-mistakes-jekyll
 
 # plugins:
 #   - jekyll-feed
