@@ -20,27 +20,39 @@
 
 minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
-title: AstrodAI
-author: Thiago César 
-email: thiagoclm@gmail.com
-# avatar: "/assets/images/space_icon.png"
-logo: /assets/images/space_icon.png
-header:
-  teaser: /assets/images/nasa.jpg
-  # caption: "AstrodAI"
-description: >- # this means to ignore newlines until "baseurl:"
-  AsdtrodAI is a website that focuses on the research of astrodynamics with AI.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://thiagoclm.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-# twitter_username: jekyllrb
-# linkedin_username: thiagoclm
-linkedin:
-  username: &linkedin thiagoclm
-# github_username:  Thiagoclm
-github:
-  username: &github Thiagoclm
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
 
-teaser: "/assets/images/nasa.png"
+title: AstrodAI
+description: AstrodAI is a blog/website that focuses on the research of astrodynamics and Artificial Intelligence
+# Site Author
+author: 
+  name: Thiago César 
+  avatar: /assets/images/short2.jpg
+  links:
+  - label: "Email"
+    icon: "fas fa-fw fa-envelope-square"
+    url: thiagoclm@gmail.com
+  - label: "LinkedIn"
+    icon: "fab fa-fw fa-linkedin"
+    url: "https://www.linkedin.com/in/thiagoclm/"
+  - label: "GitHub"
+    icon: "fab fa-fw fa-github"
+    url: "https://github.com/Thiagoclm"
+
+logo: /assets/images/space_icon.png
+
+header:
+  overlay_image: /assets/images/nasa.jpg
+  caption: astrodAI
+# baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://thiagoclm.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Site Footer
 footer:
@@ -55,7 +67,8 @@ footer:
       icon: "fab fa-fw fa-researchgate"
       url: "https://www.researchgate.net/profile/Thiago-Marsola"
 
-
+atom_feed:
+  hide: true
 
 # Build settings
 # theme: minima
