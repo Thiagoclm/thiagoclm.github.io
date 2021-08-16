@@ -26,15 +26,26 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
+      layout: splash
       author_profile: true
 
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: splash
+
+layout: splash
+
 title: AstrodAI
-description: AstrodAI is a blog/website that focuses on the research of astrodynamics and Artificial Intelligence
+subtitle: AstrodAI is a blog/website that focuses on the research of Astrodynamics and Artificial Intelligence
 # Site Author
 author: 
   name: Thiago César 
   avatar: /assets/images/short2.jpg
+  bio: I'm a Data Scientist and Researcher focusing on the intersection between AI and astrodynamics.
   links:
   - label: "Email"
     icon: "fas fa-fw fa-envelope-square"
@@ -48,12 +59,19 @@ author:
 
 logo: /assets/images/space_icon.png
 
-header:
-  overlay_image: /assets/images/nasa.jpg
-  caption: astrodAI
+# header:
+#   image: /assets/images/nasa2.jpg
+#   overlay_image: /assets/images/nasa2.jpg
+#   caption: astrodAI
+
+# teaser: /assets/images/nasa2.jpg
+# og_image: /assets/images/nasa2.jpg
+image:
+  path: /assets/images/nasa2.jpg
+
 # baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://thiagoclm.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-
+search: true
 # Site Footer
 footer:
   links:
@@ -77,6 +95,11 @@ remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 plugins:
   - jekyll-feed
   - jekyll-include-cache
+
+compress_html:
+  clippings: all
+  ignore:
+    envs: development  # disable compression in dev environment
 
 # Exclude from processing.
 # The following items will not be processed, by default.
