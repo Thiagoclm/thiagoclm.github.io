@@ -32,6 +32,7 @@ defaults:
 title: AstrodAI
 subtitle: AstrodAI is a blog/website that focuses on the research of Astrodynamics and Artificial Intelligence
 # Site Author
+# og_image: "/assets/images/short2.jpg"
 author: 
   name: Thiago César 
   avatar: /assets/images/short2.jpg
@@ -48,9 +49,11 @@ author:
     icon: "fab fa-fw fa-github"
     url: "https://github.com/Thiagoclm"
 
-logo: /assets/images/space_icon.png
+# breadcrumbs: true
 
-teaser: '/assets/images/nasa2.jpg' # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo: '/assets/images/space_icon.png'
+
+teaser: '/assets/images/nasa2.jpg' 
 
 # header:
 #   image: /assets/images/nasa2.jpg
@@ -126,3 +129,37 @@ compress_html:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - Rakefile
+  - README
+  - tmp
+keep_files:
+  - .git
+  - .svn
+# encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
