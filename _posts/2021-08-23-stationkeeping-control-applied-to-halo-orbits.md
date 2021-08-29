@@ -31,5 +31,5 @@ This paper considers the dynamics of the circular restricted three-body problem 
 </figure> -->
 <figure>
 	<a href="/assets/images/crtbp.png"><img src="/assets/images/crtbp.png"></a>
-	<figcaption><a href="" title="The Circular Restricted Three-Body Problem"></a>.</figcaption>
+	<figcaption><a href="" title="The Circular Restricted Three-Body Problem"></a></figcaption>
 </figure>

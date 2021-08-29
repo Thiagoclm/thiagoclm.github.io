@@ -7,4 +7,6 @@ header:
   caption: "Photo credit: [**NASA**](https://nasa.com)"
 layout: home
 author_profile: true
+
+logo: '/assets/images/space_icon.png'
 ---
