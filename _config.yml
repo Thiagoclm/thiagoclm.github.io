@@ -26,7 +26,7 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
+      layout: splash
       author_profile: true
 
 title: AstrodAI
@@ -36,6 +36,7 @@ author:
   name: Thiago César 
   avatar: /assets/images/short2.jpg
   bio: I'm a Data Scientist and Researcher focusing on the intersection between AI and astrodynamics.
+  location: São Paulo, BR
   links:
   - label: "Email"
     icon: "fas fa-fw fa-envelope-square"
@@ -49,15 +50,18 @@ author:
 
 logo: /assets/images/space_icon.png
 
+teaser: '/assets/images/nasa2.jpg' # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+
 # header:
 #   image: /assets/images/nasa2.jpg
-#   overlay_image: /assets/images/nasa2.jpg
-#   caption: astrodAI
+# #   og_image: /assets/images/page-header-og-image.png
+#   caption: "Photo credit: [**NASA**](https://nasa.com)"
 
-# teaser: /assets/images/nasa2.jpg
-# og_image: /assets/images/nasa2.jpg
-image:
-  path: /assets/images/nasa2.jpg
+# {% include figure image_path="/assets/images/unsplash-image-10.jpg" alt="this is a placeholder image" caption="This is a figure caption." %}
+# <figure>
+#   <img src="/assets/images/nasa2.jpg" alt="this is a placeholder image">
+#   <figcaption>This is a figure caption.</figcaption>
+# </figure>
 
 # baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://thiagoclm.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
@@ -78,11 +82,23 @@ footer:
 atom_feed:
   hide: true
 
+classes: wide
 # Build settings
 # theme: minima
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
 plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
 
