@@ -53,13 +53,6 @@ author:
 
 logo: '/assets/images/space_icon.png'
 
-teaser: '/assets/images/nasa2.jpg' 
-
-# header:
-#   image: /assets/images/nasa2.jpg
-# #   og_image: /assets/images/page-header-og-image.png
-#   caption: "Photo credit: [**NASA**](https://nasa.com)"
-
 # {% include figure image_path="/assets/images/unsplash-image-10.jpg" alt="this is a placeholder image" caption="This is a figure caption." %}
 # <figure>
 #   <img src="/assets/images/nasa2.jpg" alt="this is a placeholder image">
@@ -109,6 +102,13 @@ compress_html:
   clippings: all
   ignore:
     envs: development  # disable compression in dev environment
+
+category_archive:
+  type: jekyll-archives
+  path: /categories/
+tag_archive:
+  type: jekyll-archives
+  path: /tags/
 
 # Exclude from processing.
 # The following items will not be processed, by default.

@@ -17,6 +17,8 @@ excerpt: This paper considers the dynamics of the circular restricted three-body
 author_profile: true
 share: true
 related: true
+
+tags: paper
 ---
 [Paper](https://link.springer.com/article/10.1007/s40430-021-03071-9){: .btn .btn--success}
 
@@ -29,7 +31,7 @@ This paper considers the dynamics of the circular restricted three-body problem 
 	<a href="/assets/images/crtbp.png"><img src="/assets/images/crtbp.png"></a>
 	<figcaption><a href="" title="The Circular Restricted Three-Body Problem">The Circular Restricted Three-Body Problem</a>.</figcaption>
 </figure> -->
-<figure>
-	<a href="/assets/images/crtbp.png"><img src="/assets/images/crtbp.png"></a>
-	<figcaption><a href="" title="The Circular Restricted Three-Body Problem"></a></figcaption>
-</figure>
+<!-- {% include figure image_path="/assets/images/crtbp.png" alt="this is a placeholder image" caption="The Circular Restricted Three-Body Problem." %} -->
+![image-center](/assets/images/crtbp.png){: .align-center}
+The Circular Restricted Three-Body Problem.
+{: .text-center}
